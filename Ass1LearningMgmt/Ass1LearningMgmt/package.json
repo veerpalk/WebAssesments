@@ -1,0 +1,20 @@
+{
+  "name": "ass1learningmgmt",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.16.3",
+    "sequelize": "^4.37.7",
+    "sqlite3": "^4.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+"build": "tsc",
+"prestart": "npm run build",
+"start": "node dist/server.js"
+}, 
+
+  "author": "Veerpal kaur",
+  "license": "ISC",
+  "description": ""
+}
